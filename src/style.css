@@ -39,3 +39,30 @@ body
     color: #fff;
     font-size: 30px !important;
 }
+
+/*-------------banner section---------------*/
+
+#banner
+{
+    background-image: linear-gradient(to right, #11998E, #38EF7D);
+    color: #fff;
+    padding-top: 5%;
+}
+.banner-title
+{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.img-fluid
+{
+    max-width: 90% !important;
+    margin-left: 30px;
+}
+.skew-cc{
+    width:100%;
+    height:100px;
+    position:absolute;
+    left:0px;
+    background: linear-gradient(to right bottom, #823A9C 49%, #fff 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
+  }
