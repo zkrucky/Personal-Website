@@ -5,7 +5,7 @@
 }
 body
 {
-    font-family: sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 #nav-bar
 {
@@ -15,7 +15,7 @@ body
 }
 .navbar
 {
-    background-image: linear-gradient(to right, #11998E, #38EF7D);
+    background: #caebf2;
     padding: 0 !important;
 }
 .navbar-brand
@@ -29,14 +29,12 @@ body
 }
 .navbar-nav li a
 {
-    color: #fff !important;
     font-weight: 600;
     float: right;
     text-align: left;
 }
 .fa-bars
 {
-    color: #fff;
     font-size: 30px !important;
 }
 
@@ -44,8 +42,7 @@ body
 
 #banner
 {
-    background-image: linear-gradient(to right, #11998E, #38EF7D);
-    color: #fff;
+    background: #caebf2;
     padding-top: 5%;
     padding-bottom: 5%;
 }
@@ -54,6 +51,11 @@ body
     font-size: 50px;
     font-weight: 600;
     margin-top: 25px;
+    margin-left: 75px;
+}
+.banner-text
+{
+    margin-left: 75px;
 }
 
 /*--------------about me section-----------------*/
@@ -61,11 +63,11 @@ body
 #about-me
 {
     padding: 80px 0;
+    background: #a9a9a9;
 }
 .about-me
 {
     margin: auto;
-    padding: 40px;
 }
 .title
 {
@@ -74,7 +76,7 @@ body
 .title::before
 {
     content: '';
-    background: #11998E;
+    background: #000000;
     height: 5px;
     width: 200px;
     margin-left: auto;
@@ -95,7 +97,36 @@ body
 
 #resume
 {
-    background: #f8f9fa;
-    padding-bottom: 50px;
+    background: #efefef;
+    padding: 80px 0;
+}
+.resume-block
+{
     padding-top: 50px;
+    padding-bottom: 50px;
+}
+.resume-icon
+{
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    background: #ff3b3f;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    left: 33%;
+    margin-top: 14.4px;
+    margin-left: -38.4px;
+}
+.resume-header
+{
+    float: left;
+    width: 35%;
+    padding-right: 90px;
+    text-align: right;
+}
+.resume-content
+{
+    margin-right: 150px;
 }
