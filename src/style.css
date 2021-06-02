@@ -51,11 +51,6 @@ body
     font-size: 50px;
     font-weight: 600;
     margin-top: 25px;
-    margin-left: 75px;
-}
-.banner-text
-{
-    margin-left: 75px;
 }
 
 /*--------------about me section-----------------*/
@@ -84,6 +79,11 @@ body
     display: block;
     transform: translateY(63px);
 }
+.about-me-image
+{
+    width: 50%;
+    float: left;
+}
 .about-me-text
 {
     padding-top: 15px;
@@ -100,10 +100,17 @@ body
     background: #efefef;
     padding: 80px 0;
 }
-.resume-block
+.resume-title
 {
     padding-top: 50px;
-    padding-bottom: 50px;
+}
+hr.solid {
+    border-top: 3px solid #bbb;
+}
+.resume-block
+{
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .resume-icon
 {
@@ -123,10 +130,32 @@ body
 {
     float: left;
     width: 35%;
-    padding-right: 90px;
+    padding-right: 150px;
     text-align: right;
 }
 .resume-content
 {
-    margin-right: 150px;
+    margin-right: -100px;
+}
+.resume-content ul
+{
+    list-style-type: circle;
+}
+.resume-content span
+{
+    margin-bottom: 25px;
+}
+.skill
+{
+    border: 1px solid #ff3b3f;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: auto;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 1.333333em;
+    padding: 7px 18px;
+    margin-top: 0.8em;
+    border-radius: 8px;
 }
