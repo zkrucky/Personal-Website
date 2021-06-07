@@ -5,7 +5,7 @@
 }
 body
 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Baloo 2', cursive;
 }
 #nav-bar
 {
@@ -15,13 +15,17 @@ body
 }
 .navbar
 {
-    background: #caebf2;
+    background: #ffffff;
     padding: 0 !important;
 }
 .navbar-brand
 {
-    height: 40px;
+    font-family: 'Rock Salt', cursive !important;
+    padding-top: 20px;
     padding-left: 20px;
+    font-weight: 800;
+    float: left;
+    text-align: right;
 }
 .navbar-nav li
 {
@@ -42,15 +46,13 @@ body
 
 #banner
 {
-    background: #caebf2;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    background: #548687;
+    color: #fff;
 }
-.banner-title
+.banner-image
 {
-    font-size: 50px;
-    font-weight: 600;
-    margin-top: 25px;
+    width: 100%;
+    height: auto;
 }
 
 /*--------------about me section-----------------*/
@@ -58,7 +60,8 @@ body
 #about-me
 {
     padding: 80px 0;
-    background: #a9a9a9;
+    background: #B0413E;
+    color: #fffffa;
 }
 .about-me
 {
@@ -67,22 +70,6 @@ body
 .title
 {
     margin-bottom: 30px;
-}
-.title::before
-{
-    content: '';
-    background: #000000;
-    height: 5px;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    transform: translateY(63px);
-}
-.about-me-image
-{
-    width: 50%;
-    float: left;
 }
 .about-me-text
 {
@@ -97,7 +84,7 @@ body
 
 #resume
 {
-    background: #efefef;
+    background: #fceade;
     padding: 80px 0;
 }
 .resume-title
@@ -117,7 +104,7 @@ hr.solid {
     height: 50px;
     width: 50px;
     line-height: 50px;
-    background: #ff3b3f;
+    background: #B0413E;
     border-radius: 50%;
     text-align: center;
     color: #fff;
@@ -147,7 +134,7 @@ hr.solid {
 }
 .skill
 {
-    border: 1px solid #ff3b3f;
+    border: 1px solid #548687;
     margin-right: 10px;
     text-transform: uppercase;
     font-weight: 500;
