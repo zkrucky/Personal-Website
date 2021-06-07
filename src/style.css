@@ -47,7 +47,7 @@ body
 #banner
 {
     background: #548687;
-    color: #fff;
+    color: #fffffa;
 }
 .banner-image
 {
@@ -79,12 +79,24 @@ body
 {
     font-size: 20px;
 }
+#about-me .btn-primary
+{
+    box-shadow: none;
+    padding: 8px 20px;
+    border: 1px solid #fffffa;
+    border-radius: 20px;
+    background: #B0413E;
+}
+.button-row
+{
+    margin: 20px 30px;
+}
 
 /*------------------resume section----------------*/
 
 #resume
 {
-    background: #fceade;
+    background: #fbe8da;
     padding: 80px 0;
 }
 .resume-title
@@ -145,4 +157,12 @@ hr.solid {
     padding: 7px 18px;
     margin-top: 0.8em;
     border-radius: 8px;
+}
+
+/*------------------projects section-------------------*/
+
+#projects
+{
+    background: #fdf3ed;
+    padding: 80px 0;
 }
